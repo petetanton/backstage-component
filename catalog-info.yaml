@@ -1,0 +1,13 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: testing-component
+  description: Some description
+  annotations: 
+    github.com/project-slug: petetanton/backstage-component
+    backstage.io/source-ref: "https://github.com/petetanton/backstage-component"
+    backstage.io/techdocs-ref: url:https://github.com/petetanton/backstage-component
+spec:
+  type: service
+  lifecycle: experimental
+  owner: petetanton
